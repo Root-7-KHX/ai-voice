@@ -1,0 +1,24 @@
+# dependencies
+node_modules/
+
+# local data / generated audio
+data/
+*.wav
+*.mp3
+*.onnx
+
+# python
+__pycache__/
+*.pyc
+venv/
+venv-*/
+.venv/
+
+# logs / temp
+*.log
+.tmp-*/
+dist/
+
+# os
+.DS_Store
+Thumbs.db
