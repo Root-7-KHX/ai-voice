@@ -1,0 +1,51 @@
+{
+  "name": "@local/ai-voice",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "AI voice studio for DeepSeek Harness: local VoxCPM2 voice design (text description -> reference voice, with recording/other-audio cloning) and IndexTTS-2.5 emotion performance (crying, laughing, anger...), plus export and a local reference library.",
+  "author": {
+    "name": "Root-7-KHX",
+    "url": "https://github.com/Root-7-KHX"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Root-7-KHX/ai-voice.git"
+  },
+  "homepage": "https://github.com/Root-7-KHX/ai-voice#readme",
+  "bugs": {
+    "url": "https://github.com/Root-7-KHX/ai-voice/issues"
+  },
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "tts",
+    "voice",
+    "speech",
+    "voice-cloning",
+    "voxcpm",
+    "indextts"
+  ],
+  "exports": {
+    ".": "./index.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "lib",
+    "scripts",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "README.md",
+    "LICENSE"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}

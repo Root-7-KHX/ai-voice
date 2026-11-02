@@ -1,0 +1,3 @@
+- insert:
+    - id: ai-voice
+      name: '@local/ai-voice'
