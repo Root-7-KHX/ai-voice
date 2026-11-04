@@ -1,9 +1,9 @@
 {
   "name": "@local/ai-voice",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
   "type": "module",
-  "description": "AI voice studio for DeepSeek Harness: local VoxCPM2 voice design (text description -> reference voice, with recording/other-audio cloning) and IndexTTS-2.5 emotion performance (crying, laughing, anger...), plus export and a local reference library.",
+  "description": "AI voice studio for DeepSeek Harness: 9 local TTS engines (VoxCPM2 voice design, IndexTTS-2.5 emotion performance, Qwen3-TTS custom voice/clone, plus Spark-TTS / CosyVoice3 / OpenAudio S1-mini / GPT-SoVITS / F5-TTS / Kokoro), reference library and export.",
   "author": {
     "name": "Root-7-KHX",
     "url": "https://github.com/Root-7-KHX"
