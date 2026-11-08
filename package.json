@@ -1,6 +1,6 @@
 {
   "name": "@local/ai-voice",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "private": true,
   "type": "module",
   "description": "AI voice studio for DeepSeek Harness: 9 local TTS engines (VoxCPM2 voice design, IndexTTS-2.5 emotion performance, Qwen3-TTS custom voice/clone, plus Spark-TTS / CosyVoice3 / OpenAudio S1-mini / GPT-SoVITS / F5-TTS / Kokoro), reference library and export.",
@@ -41,7 +41,8 @@
     "locale/*.json",
     "icon.svg",
     "README.md",
-    "LICENSE"
+    "LICENSE",
+    "CHANGELOG.md"
   ],
   "dsh": {
     "bundle": {

@@ -29,7 +29,7 @@ function registerIntegration() {
       id: 'ai-voice',
       name: 'AI语音',
       description: '本地音色工作台：文字描述造声音、录音/参考音频复刻、哭腔笑声等情绪表演，内置 9 个本地 TTS 引擎，可导出音频。',
-      version: '0.2.0',
+      version: '0.2.1',
       author: 'Root-7-KHX',
       category: '应用',
       tags: ['语音', 'TTS', '声音设计', '情绪', '声音克隆'],
